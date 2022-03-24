@@ -46,15 +46,23 @@ Als letztes kam der Bash code um die installation von Plex und das vorbereiten d
 ## Testing
 
 ![VagrantStartup](images/VagrantStart.png)
+
+
 1. Nachdem ich das Skript fertig geschrieben habe, führe ich das Vagrant skript aus indem ich Git bash öffnete, in das richtige Verzeichnis ging und "vagrant up" ausführte.
 
 ![VagrantStartupFinish](images/VagrantStartFinish.png)
+
+
 2. Alles hat funktioniert und die VM ist gestartet
 
 ![WebURL](images/WebURL.png)
+
+
 3. Um das Plex Webinterface zu erreichen muss man diese Adresse eingeben.
 
 ![Plex](images/Plex.png)
+
+
 Und So sieht das Plex Webinterface aus wenn alles richtig geklappt hat. Nun Kann man sich mit seinem Account einloggen und Plex einrichten.
 
 ---
