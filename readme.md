@@ -13,7 +13,7 @@ Bei diesem Projekt habe ich die Automatisierung eines PLEX Servers vorgenommen. 
 
 Diesen Dienst werde ich so automatisieren, dass sobald ich das Vagrant Skript ausgeführt habe man über die Webadresse auf einem Client aufrufe und mich mit einem Plex account anmelden kann.
 
-![Darstellung VM](.\images\visio.png)
+![Darstellung VM](images/Visio.png)
 
 ---
 ## Dokumentation
