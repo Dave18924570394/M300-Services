@@ -13,14 +13,15 @@
 Bei diesem Projekt habe ich mich wieder für einen Plex Server entschieden. Dies ist dadurch zu stande gekommen,
 weil ich zuerst versucht habe das Kubernetes Projekt zu machen, was aber mir nicht gelungen ist.
 
-Ich werde mit Docker einen Container erstellen der den Plex Server erstellt und allen nötigen Configurationen, damit
+Ich werde mit Docker einen Container erstellen der den Plex Server erstellt und allen nötigen Konfigurationen, damit
 man sich einloggen kann und direkt loslegen.
 
 ---
 ## Dokumentation
 ---
 ### Docker Compose YAML File
-``` version: '2'
+``` 
+version: '2'
 services:
   plex:
     container_name: plex
@@ -55,7 +56,7 @@ Diesen claim tokken kann man unter https://www.plex.tv/claim anfordern wenn man 
 ---
 ## Testing
 
-1. Nachdem ich das Skript fertig geschrieben habe, habe ich den container mit docker-compose up gestartet.
+Nachdem ich das Skript fertig geschrieben habe, habe ich den container mit docker-compose up gestartet.
 Nach dem Testen habe ich diesen gestoppt wie man in den letzten Zeilen sieht.
 
 Wie an sieht ist der Container erfolgreich gestartet.
@@ -63,7 +64,7 @@ Die letze Ausgabe war eine critical ausgabe welche ich nicht nachvolziehen kann,
 
 ![Docker up](images/Container_start.png)
 
-2. Das Plex interface erreicht man, wenn man "ip adresse":32400/web eingibt.
+Das Plex interface erreicht man, wenn man "ip adresse":32400/web eingibt.
 
 ![PLEX interface](images/Plex_webinterface.png)
 
